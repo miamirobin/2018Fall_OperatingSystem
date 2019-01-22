@@ -1,0 +1,391 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddressErrorException	machine.h	/^		     AddressErrorException, \/\/ Unaligned reference or one that$/;"	e	enum:ExceptionType
+AnyFutureInterrupts	interrupt.h	/^    bool AnyFutureInterrupts() { return !pending->IsEmpty(); }$/;"	f	class:Interrupt
+BCOND	mipssim.h	106;"	d
+BadVAddrReg	machine.h	68;"	d
+BusErrorException	machine.h	/^		     BusErrorException,     \/\/ Translation resulted in an $/;"	e	enum:ExceptionType
+CALLBACK_H	callback.h	27;"	d
+CONSOLE_H	console.h	28;"	d
+CallBack	console.cc	/^ConsoleInput::CallBack()$/;"	f	class:ConsoleInput
+CallBack	console.cc	/^ConsoleOutput::CallBack()$/;"	f	class:ConsoleOutput
+CallBack	disk.cc	/^Disk::CallBack ()$/;"	f	class:Disk
+CallBack	elevator.cc	/^ElevatorBank::CallBack() {$/;"	f	class:ElevatorBank
+CallBack	elevatortest.cc	/^ElevatorInspector::CallBack() {$/;"	f	class:ElevatorInspector
+CallBack	network.cc	/^NetworkInput::CallBack()$/;"	f	class:NetworkInput
+CallBack	network.cc	/^NetworkOutput::CallBack()$/;"	f	class:NetworkOutput
+CallBack	timer.cc	/^Timer::CallBack() $/;"	f	class:Timer
+CallBackObj	callback.h	/^     CallBackObj() {};	\/\/ to prevent anyone from creating$/;"	f	class:CallBackObj
+CallBackObj	callback.h	/^class CallBackObj {$/;"	c
+ChangeLevel	interrupt.cc	/^Interrupt::ChangeLevel(IntStatus old, IntStatus now)$/;"	f	class:Interrupt
+CheckArrived	elevator.cc	/^    bool CheckArrived() {	\/\/ has it reached the destination?$/;"	f	class:ElevatorInfo
+CheckEndian	machine.cc	/^void CheckEndian()$/;"	f	file:
+CheckIfDue	interrupt.cc	/^Interrupt::CheckIfDue(bool advanceClock)$/;"	f	class:Interrupt
+CloseDoors	elevator.cc	/^    void CloseDoors() { ASSERT(doorsOpen); doorsOpen = FALSE; }$/;"	f	class:ElevatorInfo
+CloseDoors	elevator.cc	/^ElevatorBank::CloseDoors(int elevator) {$/;"	f	class:ElevatorBank
+ComputeLatency	disk.cc	/^Disk::ComputeLatency(int newSector, bool writing)$/;"	f	class:Disk
+ConsoleInput	console.cc	/^ConsoleInput::ConsoleInput(char *readFile, CallBackObj *toCall)$/;"	f	class:ConsoleInput
+ConsoleInput	console.h	/^class ConsoleInput : public CallBackObj {$/;"	c
+ConsoleOutput	console.cc	/^ConsoleOutput::ConsoleOutput(char *writeFile, CallBackObj *toCall)$/;"	f	class:ConsoleOutput
+ConsoleOutput	console.h	/^class ConsoleOutput : public CallBackObj {$/;"	c
+ConsoleReadInt	interrupt.h	/^enum IntType { TimerInt, DiskInt, ConsoleWriteInt, ConsoleReadInt, $/;"	e	enum:IntType
+ConsoleTime	stats.h	/^const int ConsoleTime =	 100;	\/\/ time to read or write one character$/;"	v
+ConsoleWriteInt	interrupt.h	/^enum IntType { TimerInt, DiskInt, ConsoleWriteInt, ConsoleReadInt, $/;"	e	enum:IntType
+ControllerTest	elevatortest.cc	/^ControllerTest(ElevatorInspector *inspector) {$/;"	f	file:
+ControllerTest	elevatortest.cc	/^ElevatorInspector::ControllerTest () {$/;"	f	class:ElevatorInspector
+DISK_H	disk.h	18;"	d
+Debugger	machine.cc	/^void Machine::Debugger()$/;"	f	class:Machine
+Decode	mipssim.cc	/^Instruction::Decode()$/;"	f	class:Instruction
+DelayPerFloor	elevator.h	/^const int DelayPerFloor = 100;	\/\/ how long does an elevator take$/;"	v
+DelayedLoad	mipssim.cc	/^Machine::DelayedLoad(int nextReg, int nextValue)$/;"	f	class:Machine
+Direction	elevator.h	/^enum Direction { Down, Up, Neither};$/;"	g
+Disable	timer.h	/^    void Disable() { disable = TRUE; }$/;"	f	class:Timer
+Disk	disk.cc	/^Disk::Disk(char* name, CallBackObj *toCall)$/;"	f	class:Disk
+Disk	disk.h	/^class Disk : public CallBackObj {$/;"	c
+DiskInt	interrupt.h	/^enum IntType { TimerInt, DiskInt, ConsoleWriteInt, ConsoleReadInt, $/;"	e	enum:IntType
+DiskSize	disk.cc	/^const int DiskSize = (MagicSize + (NumSectors * SectorSize));$/;"	v
+DoorsOpened	elevator.h	/^enum ElevatorEvent { NoEvent, DoorsOpened, UpButtonPressed, $/;"	e	enum:ElevatorEvent
+Down	elevator.h	/^enum Direction { Down, Up, Neither};$/;"	e	enum:Direction
+DownButtonPressed	elevator.h	/^	DownButtonPressed, FloorButtonPressed, ElevatorArrived};$/;"	e	enum:ElevatorEvent
+DumpState	interrupt.cc	/^Interrupt::DumpState()$/;"	f	class:Interrupt
+DumpState	machine.cc	/^Machine::DumpState()$/;"	f	class:Machine
+ELEVATORTEST_H	elevatortest.h	9;"	d
+ELEVATOR_H	elevator.h	19;"	d
+EXTRA	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	e	enum:RegType
+ElevatorArrived	elevator.h	/^	DownButtonPressed, FloorButtonPressed, ElevatorArrived};$/;"	e	enum:ElevatorEvent
+ElevatorBank	elevator.cc	/^ElevatorBank::ElevatorBank(int numElvtr, int numFlr, $/;"	f	class:ElevatorBank
+ElevatorBank	elevator.h	/^class ElevatorBank : public CallBackObj {$/;"	c
+ElevatorEvent	elevator.h	/^enum ElevatorEvent { NoEvent, DoorsOpened, UpButtonPressed, $/;"	g
+ElevatorInfo	elevator.cc	/^    ElevatorInfo() { 		\/\/ initialize elevator state$/;"	f	class:ElevatorInfo
+ElevatorInfo	elevator.cc	/^class ElevatorInfo {$/;"	c	file:
+ElevatorInspector	elevatortest.cc	/^ElevatorInspector::ElevatorInspector()$/;"	f	class:ElevatorInspector
+ElevatorInspector	elevatortest.cc	/^class ElevatorInspector : public CallBackObj{$/;"	c	file:
+ElevatorInt	interrupt.h	/^			ElevatorInt, NetworkSendInt, NetworkRecvInt};$/;"	e	enum:IntType
+ElevatorSelfTest	elevatortest.cc	/^ElevatorSelfTest () {$/;"	f
+Enable	interrupt.h	/^    void Enable() { (void) SetLevel(IntOn); }$/;"	f	class:Interrupt
+Enter	elevator.cc	/^    bool Enter(int onFloor) { \/\/ rider enters the elevator$/;"	f	class:ElevatorInfo
+EnterElevator	elevator.cc	/^ElevatorBank::EnterElevator(int onFloor, int elevator)$/;"	f	class:ElevatorBank
+ExceptionType	machine.h	/^enum ExceptionType { NoException,           \/\/ Everything ok!$/;"	g
+Exit	elevator.cc	/^    bool Exit(int onFloor) {	\/\/ rider leaves the elevator$/;"	f	class:ElevatorInfo
+ExitElevator	elevator.cc	/^ElevatorBank::ExitElevator(int onFloor, int elevator)$/;"	f	class:ElevatorBank
+FloorButtonPressed	elevator.h	/^	DownButtonPressed, FloorButtonPressed, ElevatorArrived};$/;"	e	enum:ElevatorEvent
+GetChar	console.cc	/^ConsoleInput::GetChar()$/;"	f	class:ConsoleInput
+Halt	interrupt.cc	/^Interrupt::Halt()$/;"	f	class:Interrupt
+HiReg	machine.h	61;"	d
+IFMT	mipssim.h	108;"	d
+INTERRUPT_H	interrupt.h	36;"	d
+Idle	interrupt.cc	/^Interrupt::Idle()$/;"	f	class:Interrupt
+IdleMode	interrupt.h	/^enum MachineStatus {IdleMode, SystemMode, UserMode};$/;"	e	enum:MachineStatus
+IllegalInstrException	machine.h	/^		     IllegalInstrException, \/\/ Unimplemented or reserved instr.$/;"	e	enum:ExceptionType
+IndexToAddr	mipssim.h	94;"	d
+Instruction	mipssim.cc	/^class Instruction {$/;"	c	file:
+IntOff	interrupt.h	/^enum IntStatus { IntOff, IntOn };$/;"	e	enum:IntStatus
+IntOn	interrupt.h	/^enum IntStatus { IntOff, IntOn };$/;"	e	enum:IntStatus
+IntStatus	interrupt.h	/^enum IntStatus { IntOff, IntOn };$/;"	g
+IntType	interrupt.h	/^enum IntType { TimerInt, DiskInt, ConsoleWriteInt, ConsoleReadInt, $/;"	g
+Interrupt	interrupt.cc	/^Interrupt::Interrupt()$/;"	f	class:Interrupt
+Interrupt	interrupt.h	/^class Interrupt {$/;"	c
+JFMT	mipssim.h	109;"	d
+ListOfEvents	elevator.h	/^typedef List<PendingElevatorEvent *> ListOfEvents;$/;"	t
+LoReg	machine.h	62;"	d
+LoadReg	machine.h	66;"	d
+LoadValueReg	machine.h	67;"	d
+MACHINE_H	machine.h	22;"	d
+MIPSSIM_H	mipssim.h	11;"	d
+Machine	machine.cc	/^Machine::Machine(bool debug)$/;"	f	class:Machine
+Machine	machine.h	/^class Machine {$/;"	c
+MachineStatus	interrupt.h	/^enum MachineStatus {IdleMode, SystemMode, UserMode};$/;"	g
+MagicNumber	disk.cc	/^const int MagicNumber = 0x456789ab;$/;"	v
+MagicSize	disk.cc	/^const int MagicSize = sizeof(int);$/;"	v
+MarkDirection	elevator.cc	/^ElevatorBank::MarkDirection(int elevator, Direction dir)$/;"	f	class:ElevatorBank
+MaxOpcode	mipssim.h	88;"	d
+MaxPacketSize	network.h	42;"	d
+MaxRiders	elevator.h	/^const int MaxRiders = 4;	\/\/ carrying capacity of each elevator$/;"	v
+MaxWireSize	network.h	41;"	d
+MemorySize	machine.h	/^const int MemorySize = (NumPhysPages * PageSize);$/;"	v
+ModuloDiff	disk.cc	/^Disk::ModuloDiff(int to, int from)$/;"	f	class:Disk
+MoveTo	elevator.cc	/^    bool MoveTo(int goingToFloor) {$/;"	f	class:ElevatorInfo
+MoveTo	elevator.cc	/^ElevatorBank::MoveTo(int goingToFloor, int elevator)$/;"	f	class:ElevatorBank
+Mult	mipssim.cc	/^Mult(int a, int b, bool signedArith, int* hiPtr, int* loPtr)$/;"	f	file:
+NETWORK_H	network.h	16;"	d
+NONE	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	e	enum:RegType
+Neither	elevator.h	/^enum Direction { Down, Up, Neither};$/;"	e	enum:Direction
+NetworkAddress	network.h	/^typedef int NetworkAddress;	 $/;"	t
+NetworkInput	network.cc	/^NetworkInput::NetworkInput(CallBackObj *toCall)$/;"	f	class:NetworkInput
+NetworkInput	network.h	/^class NetworkInput : public CallBackObj{$/;"	c
+NetworkOutput	network.cc	/^NetworkOutput::NetworkOutput(double reliability, CallBackObj *toCall)$/;"	f	class:NetworkOutput
+NetworkOutput	network.h	/^class NetworkOutput : public CallBackObj {$/;"	c
+NetworkRecvInt	interrupt.h	/^			ElevatorInt, NetworkSendInt, NetworkRecvInt};$/;"	e	enum:IntType
+NetworkSendInt	interrupt.h	/^			ElevatorInt, NetworkSendInt, NetworkRecvInt};$/;"	e	enum:IntType
+NetworkTime	stats.h	/^const int NetworkTime =	 100;  	\/\/ time to send or receive one packet$/;"	v
+NextPCReg	machine.h	64;"	d
+NoEvent	elevator.h	/^enum ElevatorEvent { NoEvent, DoorsOpened, UpButtonPressed, $/;"	e	enum:ElevatorEvent
+NoException	machine.h	/^enum ExceptionType { NoException,           \/\/ Everything ok!$/;"	e	enum:ExceptionType
+NumExceptionTypes	machine.h	/^		     NumExceptionTypes$/;"	e	enum:ExceptionType
+NumGPRegs	machine.h	60;"	d
+NumPhysPages	machine.h	/^const unsigned int NumPhysPages = 32;$/;"	v
+NumSectors	disk.h	/^const int NumSectors = (SectorsPerTrack * NumTracks);$/;"	v
+NumTotalRegs	machine.h	70;"	d
+NumTracks	disk.h	/^const int NumTracks = 32;		\/\/ number of tracks per disk$/;"	v
+OP_ADD	mipssim.h	25;"	d
+OP_ADDI	mipssim.h	26;"	d
+OP_ADDIU	mipssim.h	27;"	d
+OP_ADDU	mipssim.h	28;"	d
+OP_AND	mipssim.h	29;"	d
+OP_ANDI	mipssim.h	30;"	d
+OP_BEQ	mipssim.h	31;"	d
+OP_BGEZ	mipssim.h	32;"	d
+OP_BGEZAL	mipssim.h	33;"	d
+OP_BGTZ	mipssim.h	34;"	d
+OP_BLEZ	mipssim.h	35;"	d
+OP_BLTZ	mipssim.h	36;"	d
+OP_BLTZAL	mipssim.h	37;"	d
+OP_BNE	mipssim.h	38;"	d
+OP_DIV	mipssim.h	40;"	d
+OP_DIVU	mipssim.h	41;"	d
+OP_J	mipssim.h	42;"	d
+OP_JAL	mipssim.h	43;"	d
+OP_JALR	mipssim.h	44;"	d
+OP_JR	mipssim.h	45;"	d
+OP_LB	mipssim.h	46;"	d
+OP_LBU	mipssim.h	47;"	d
+OP_LH	mipssim.h	48;"	d
+OP_LHU	mipssim.h	49;"	d
+OP_LUI	mipssim.h	50;"	d
+OP_LW	mipssim.h	51;"	d
+OP_LWL	mipssim.h	52;"	d
+OP_LWR	mipssim.h	53;"	d
+OP_MFHI	mipssim.h	55;"	d
+OP_MFLO	mipssim.h	56;"	d
+OP_MTHI	mipssim.h	58;"	d
+OP_MTLO	mipssim.h	59;"	d
+OP_MULT	mipssim.h	60;"	d
+OP_MULTU	mipssim.h	61;"	d
+OP_NOR	mipssim.h	62;"	d
+OP_OR	mipssim.h	63;"	d
+OP_ORI	mipssim.h	64;"	d
+OP_RES	mipssim.h	87;"	d
+OP_RFE	mipssim.h	65;"	d
+OP_SB	mipssim.h	66;"	d
+OP_SH	mipssim.h	67;"	d
+OP_SLL	mipssim.h	68;"	d
+OP_SLLV	mipssim.h	69;"	d
+OP_SLT	mipssim.h	70;"	d
+OP_SLTI	mipssim.h	71;"	d
+OP_SLTIU	mipssim.h	72;"	d
+OP_SLTU	mipssim.h	73;"	d
+OP_SRA	mipssim.h	74;"	d
+OP_SRAV	mipssim.h	75;"	d
+OP_SRL	mipssim.h	76;"	d
+OP_SRLV	mipssim.h	77;"	d
+OP_SUB	mipssim.h	78;"	d
+OP_SUBU	mipssim.h	79;"	d
+OP_SW	mipssim.h	80;"	d
+OP_SWL	mipssim.h	81;"	d
+OP_SWR	mipssim.h	82;"	d
+OP_SYSCALL	mipssim.h	85;"	d
+OP_UNIMP	mipssim.h	86;"	d
+OP_XOR	mipssim.h	83;"	d
+OP_XORI	mipssim.h	84;"	d
+OneInstruction	mipssim.cc	/^Machine::OneInstruction(Instruction *instr)$/;"	f	class:Machine
+OneTick	interrupt.cc	/^Interrupt::OneTick()$/;"	f	class:Interrupt
+OpInfo	mipssim.h	/^struct OpInfo {$/;"	s
+OpString	mipssim.h	/^struct OpString {$/;"	s
+OpenDoors	elevator.cc	/^    int OpenDoors() {  \/\/ open the elevator doors, & return where we are$/;"	f	class:ElevatorInfo
+OpenDoors	elevator.cc	/^ElevatorBank::OpenDoors(int elevator)$/;"	f	class:ElevatorBank
+OverflowException	machine.h	/^		     OverflowException,     \/\/ Integer overflow in add or sub.$/;"	e	enum:ExceptionType
+PCReg	machine.h	63;"	d
+PacketHeader	network.h	/^class PacketHeader {$/;"	c
+PageFaultException	machine.h	/^		     PageFaultException,    \/\/ No valid translation found$/;"	e	enum:ExceptionType
+PageSize	machine.h	/^const unsigned int PageSize = 128; 		\/\/ set the page size equal to$/;"	v
+PendingCompare	interrupt.cc	/^PendingCompare (PendingInterrupt *x, PendingInterrupt *y)$/;"	f	file:
+PendingElevatorEvent	elevator.cc	/^    PendingElevatorEvent(ElevatorEvent ev, int fl, int el) {$/;"	f	class:PendingElevatorEvent
+PendingElevatorEvent	elevator.cc	/^class PendingElevatorEvent {$/;"	c	file:
+PendingInterrupt	interrupt.cc	/^PendingInterrupt::PendingInterrupt(CallBackObj *callOnInt, $/;"	f	class:PendingInterrupt
+PendingInterrupt	interrupt.h	/^class PendingInterrupt {$/;"	c
+PostEvent	elevator.cc	/^ElevatorBank::PostEvent(ListOfEvents *list, ElevatorEvent ev, $/;"	f	class:ElevatorBank
+PressButton	elevator.cc	/^ElevatorBank::PressButton(int onFloor, Direction goingTo)$/;"	f	class:ElevatorBank
+PressFloor	elevator.cc	/^ElevatorBank::PressFloor(int goingToFloor, int elevator)$/;"	f	class:ElevatorBank
+PrevPCReg	machine.h	65;"	d
+Print	stats.cc	/^Statistics::Print()$/;"	f	class:Statistics
+PrintPending	interrupt.cc	/^PrintPending (PendingInterrupt *pending)$/;"	f	file:
+PrintSector	disk.cc	/^PrintSector (bool writing, int sector, char *data)$/;"	f	file:
+PutChar	console.cc	/^ConsoleOutput::PutChar(char ch)$/;"	f	class:ConsoleOutput
+R31	mipssim.h	97;"	d
+RD	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	e	enum:RegType
+RFMT	mipssim.h	110;"	d
+RS	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	e	enum:RegType
+RT	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	e	enum:RegType
+RaiseException	machine.cc	/^Machine::RaiseException(ExceptionType which, int badVAddr)$/;"	f	class:Machine
+ReachedNextFloor	elevator.cc	/^    bool ReachedNextFloor() {	\/\/ has the elevator reached the next floor?$/;"	f	class:ElevatorInfo
+ReadMem	translate.cc	/^Machine::ReadMem(int addr, int size, int *value)$/;"	f	class:Machine
+ReadOnlyException	machine.h	/^		     ReadOnlyException,     \/\/ Write attempted to page marked $/;"	e	enum:ExceptionType
+ReadRegister	machine.cc	/^Machine::ReadRegister(int num)$/;"	f	class:Machine
+ReadRequest	disk.cc	/^Disk::ReadRequest(int sectorNumber, char* data)$/;"	f	class:Disk
+Receive	network.cc	/^NetworkInput::Receive(char* data)$/;"	f	class:NetworkInput
+RegType	mipssim.h	/^enum RegType { NONE, RS, RT, RD, EXTRA }; $/;"	g
+RetAddrReg	machine.h	59;"	d
+RiderTest	elevatortest.cc	/^ElevatorInspector::RiderTest () {$/;"	f	class:ElevatorInspector
+RotationTime	stats.h	/^const int RotationTime = 500; 	\/\/ time disk takes to rotate one sector$/;"	v
+Run	mipssim.cc	/^Machine::Run()$/;"	f	class:Machine
+SIGN_BIT	mipssim.h	96;"	d
+SPECIAL	mipssim.h	105;"	d
+STATS_H	stats.h	12;"	d
+Schedule	interrupt.cc	/^Interrupt::Schedule(CallBackObj *toCall, int fromNow, IntType type)$/;"	f	class:Interrupt
+SectorSize	disk.h	/^const int SectorSize = 128;		\/\/ number of bytes per disk sector$/;"	v
+SectorsPerTrack	disk.h	/^const int SectorsPerTrack  = 32;	\/\/ number of sectors per disk track $/;"	v
+SeekTime	stats.h	/^const int SeekTime =	 500;  	\/\/ time disk takes to seek past one track$/;"	v
+Send	network.cc	/^NetworkOutput::Send(PacketHeader hdr, char* data)$/;"	f	class:NetworkOutput
+SetInterrupt	timer.cc	/^Timer::SetInterrupt() $/;"	f	class:Timer
+SetLevel	interrupt.cc	/^Interrupt::SetLevel(IntStatus now)$/;"	f	class:Interrupt
+ShortToHost	translate.cc	/^ShortToHost(unsigned short shortword) {$/;"	f
+ShortToMachine	translate.cc	/^ShortToMachine(unsigned short shortword) { return ShortToHost(shortword); }$/;"	f
+StackReg	machine.h	58;"	d
+Statistics	stats.cc	/^Statistics::Statistics()$/;"	f	class:Statistics
+Statistics	stats.h	/^class Statistics {$/;"	c
+SyscallException	machine.h	/^		     SyscallException,      \/\/ A program executed a system call.$/;"	e	enum:ExceptionType
+SystemMode	interrupt.h	/^enum MachineStatus {IdleMode, SystemMode, UserMode};$/;"	e	enum:MachineStatus
+SystemTick	stats.h	/^const int SystemTick =	  10; 	\/\/ advance each time interrupts are enabled$/;"	v
+TIMER_H	timer.h	21;"	d
+TLBSize	machine.h	/^const int TLBSize = 4;			\/\/ if there is a TLB, make it small$/;"	v
+TLB_H	translate.h	19;"	d
+TimeToSeek	disk.cc	/^Disk::TimeToSeek(int newSector, int *rotation) $/;"	f	class:Disk
+Timer	timer.cc	/^Timer::Timer(bool doRandom, CallBackObj *toCall)$/;"	f	class:Timer
+Timer	timer.h	/^class Timer : public CallBackObj {$/;"	c
+TimerInt	interrupt.h	/^enum IntType { TimerInt, DiskInt, ConsoleWriteInt, ConsoleReadInt, $/;"	e	enum:IntType
+TimerTicks	stats.h	/^const int TimerTicks = 	 100;  	\/\/ (average) time between timer interrupts$/;"	v
+Translate	translate.cc	/^Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)$/;"	f	class:Machine
+TranslationEntry	translate.h	/^class TranslationEntry {$/;"	c
+TypeToReg	mipssim.cc	/^TypeToReg(RegType reg, Instruction *instr)$/;"	f	file:
+Up	elevator.h	/^enum Direction { Down, Up, Neither};$/;"	e	enum:Direction
+UpButtonPressed	elevator.h	/^enum ElevatorEvent { NoEvent, DoorsOpened, UpButtonPressed, $/;"	e	enum:ElevatorEvent
+UpdateLast	disk.cc	/^Disk::UpdateLast(int newSector)$/;"	f	class:Disk
+UserMode	interrupt.h	/^enum MachineStatus {IdleMode, SystemMode, UserMode};$/;"	e	enum:MachineStatus
+UserTick	stats.h	/^const int UserTick = 	   1;	\/\/ advance for each user-level instruction $/;"	v
+WaitForNextControllerEvent	elevatortest.cc	/^    ElevatorEvent WaitForNextControllerEvent(int *floor, int *elevator) {$/;"	f	class:ElevatorInspector	file:
+WaitForNextRiderEvent	elevatortest.cc	/^    ElevatorEvent WaitForNextRiderEvent(int *floor, int *elevator) {$/;"	f	class:ElevatorInspector	file:
+WhereIsElevator	elevator.cc	/^ElevatorBank::WhereIsElevator(int elevator) $/;"	f	class:ElevatorBank
+WordToHost	translate.cc	/^WordToHost(unsigned int word) {$/;"	f
+WordToMachine	translate.cc	/^WordToMachine(unsigned int word) { return WordToHost(word); }$/;"	f
+WriteMem	translate.cc	/^Machine::WriteMem(int addr, int size, int value)$/;"	f	class:Machine
+WriteRegister	machine.cc	/^Machine::WriteRegister(int num, int value)$/;"	f	class:Machine
+WriteRequest	disk.cc	/^Disk::WriteRequest(int sectorNumber, char* data)$/;"	f	class:Disk
+YieldOnReturn	interrupt.cc	/^Interrupt::YieldOnReturn()$/;"	f	class:Interrupt
+active	disk.h	/^    bool active;     			\/\/ Is a disk operation in progress?$/;"	m	class:Disk
+args	mipssim.h	/^    RegType args[3];$/;"	m	struct:OpString
+bufferInit	disk.h	/^    int bufferInit;			\/\/ When the track buffer started $/;"	m	class:Disk
+callControllers	elevator.h	/^    CallBackObj *callControllers; \/\/ call when an event occurs that$/;"	m	class:ElevatorBank
+callOnInterrupt	interrupt.h	/^    CallBackObj *callOnInterrupt;\/\/ The object (in the hardware device$/;"	m	class:PendingInterrupt
+callPeriodically	timer.h	/^    CallBackObj *callPeriodically; \/\/ call this every TimerTicks time units $/;"	m	class:Timer
+callRiders	elevator.h	/^    CallBackObj *callRiders; 	\/\/ call when an event occurs that$/;"	m	class:ElevatorBank
+callWhenAvail	console.h	/^    CallBackObj *callWhenAvail;		\/\/ Interrupt handler to call when $/;"	m	class:ConsoleInput
+callWhenAvail	network.h	/^    CallBackObj *callWhenAvail; \/\/ Interrupt handler, signalling packet has $/;"	m	class:NetworkInput
+callWhenDone	console.h	/^    CallBackObj *callWhenDone;		\/\/ Interrupt handler to call when $/;"	m	class:ConsoleOutput
+callWhenDone	disk.h	/^    CallBackObj *callWhenDone;		\/\/ Invoke when any disk request finishes$/;"	m	class:Disk
+callWhenDone	network.h	/^    CallBackObj *callWhenDone;  \/\/ Interrupt handler, signalling next packet $/;"	m	class:NetworkOutput
+chanceToWork	network.h	/^    double chanceToWork;	\/\/ Likelihood packet will be dropped$/;"	m	class:NetworkOutput
+controllerEvents	elevator.h	/^    ListOfEvents *controllerEvents;\/\/ pending events relevant to controllers$/;"	m	class:ElevatorBank
+controllerWakeup	elevatortest.cc	/^    Semaphore *controllerWakeup;\/\/ to synch controller with callbacks$/;"	m	class:ElevatorInspector	file:
+dirty	translate.h	/^    bool dirty;         \/\/ This bit is set by the hardware every time the$/;"	m	class:TranslationEntry
+disable	timer.h	/^    bool disable;		\/\/ turn off the timer device after next$/;"	m	class:Timer
+display	elevator.cc	/^    Direction display;		\/\/ rider visible display (up or down)$/;"	m	class:ElevatorInfo	file:
+doorsOpen	elevator.cc	/^    bool doorsOpen;		\/\/ are the doors open?$/;"	m	class:ElevatorInfo	file:
+elevator	elevator.cc	/^    int elevator;		\/\/ which elevator it referenced$/;"	m	class:PendingElevatorEvent	file:
+elevators	elevator.h	/^    ElevatorInfo **elevators;	\/\/ array of per-elevator state$/;"	m	class:ElevatorBank
+elevators	elevatortest.cc	/^    ElevatorBank *elevators;$/;"	m	class:ElevatorInspector	file:
+event	elevator.cc	/^    ElevatorEvent event;	\/\/ the pending event$/;"	m	class:PendingElevatorEvent	file:
+exceptionNames	machine.cc	/^static char* exceptionNames[] = { "no exception", "syscall", $/;"	v	file:
+extra	mipssim.cc	/^    int extra;       \/\/ Immediate or target or shamt field or offset.$/;"	m	class:Instruction	file:
+fileno	disk.h	/^    int fileno;				\/\/ UNIX file number for simulated disk $/;"	m	class:Disk
+floor	elevator.cc	/^    int floor;			\/\/ which floor it referenced$/;"	m	class:PendingElevatorEvent	file:
+format	mipssim.h	/^    char *format;	\/\/ Printed version of instruction$/;"	m	struct:OpString
+format	mipssim.h	/^    int format;		\/* Format type (IFMT or JFMT or RFMT) *\/$/;"	m	struct:OpInfo
+from	network.h	/^    NetworkAddress from;	\/\/ source machine ID$/;"	m	class:PacketHeader
+getDirection	elevator.cc	/^ElevatorBank::getDirection(int elevator)$/;"	f	class:ElevatorBank
+getLevel	interrupt.h	/^    IntStatus getLevel() {return level;}$/;"	f	class:Interrupt
+getNextControllerEvent	elevator.h	/^    ElevatorEvent getNextControllerEvent(int *floor, int *elevator) {$/;"	f	class:ElevatorBank
+getNextEvent	elevator.cc	/^ElevatorBank::getNextEvent(ListOfEvents *list, int *floor, $/;"	f	class:ElevatorBank
+getNextRiderEvent	elevator.h	/^    ElevatorEvent getNextRiderEvent(int *floor, int *elevator) {$/;"	f	class:ElevatorBank
+getStatus	interrupt.h	/^    MachineStatus getStatus() { return status; } $/;"	f	class:Interrupt
+goingTo	elevator.cc	/^    int goingTo;		\/\/ where is the elevator going (if anywhere)$/;"	m	class:ElevatorInfo	file:
+idleTicks	stats.h	/^    int idleTicks;       	\/\/ Time spent idle (no threads to run)$/;"	m	class:Statistics
+inHandler	interrupt.h	/^    bool inHandler;		\/\/ TRUE if we are running an interrupt handler$/;"	m	class:Interrupt
+inHdr	network.h	/^    PacketHeader inHdr;		\/\/ Information about arrived packet$/;"	m	class:NetworkInput
+inMotion	elevator.cc	/^    bool inMotion;		\/\/ is the elevator moving?$/;"	m	class:ElevatorInfo	file:
+inbox	network.h	/^    char inbox[MaxPacketSize];  \/\/ Data for arrived packet$/;"	m	class:NetworkInput
+incoming	console.h	/^    char incoming;    			\/\/ Contains the character to be read,$/;"	m	class:ConsoleInput
+intLevelNames	interrupt.cc	/^static char *intLevelNames[] = { "off", "on"};$/;"	v	file:
+intTypeNames	interrupt.cc	/^static char *intTypeNames[] = { "timer", "disk", "console write", $/;"	v	file:
+lastFloor	elevator.cc	/^    int lastFloor;		\/\/ last floor the elevator was on$/;"	m	class:ElevatorInfo	file:
+lastSector	disk.h	/^    int lastSector;			\/\/ The previous disk request $/;"	m	class:Disk
+length	network.h	/^    unsigned length;	 	\/\/ bytes of packet data, excluding the $/;"	m	class:PacketHeader
+level	interrupt.h	/^    IntStatus level;		\/\/ are interrupts enabled or disabled?$/;"	m	class:Interrupt
+mainMemory	machine.h	/^    char *mainMemory;		\/\/ physical memory to store user program,$/;"	m	class:Machine
+numConsoleCharsRead	stats.h	/^    int numConsoleCharsRead;	\/\/ number of characters read from the keyboard$/;"	m	class:Statistics
+numConsoleCharsWritten	stats.h	/^    int numConsoleCharsWritten; \/\/ number of characters written to the display$/;"	m	class:Statistics
+numDiskReads	stats.h	/^    int numDiskReads;		\/\/ number of disk read requests$/;"	m	class:Statistics
+numDiskWrites	stats.h	/^    int numDiskWrites;		\/\/ number of disk write requests$/;"	m	class:Statistics
+numElevators	elevator.h	/^    int numElevators;		\/\/ how many elevators in this bank?$/;"	m	class:ElevatorBank
+numFloors	elevator.h	/^    int numFloors;		\/\/ how many floors in this building?$/;"	m	class:ElevatorBank
+numPacketsRecvd	stats.h	/^    int numPacketsRecvd;	\/\/ number of packets received over the network$/;"	m	class:Statistics
+numPacketsSent	stats.h	/^    int numPacketsSent;		\/\/ number of packets sent over the network$/;"	m	class:Statistics
+numPageFaults	stats.h	/^    int numPageFaults;		\/\/ number of virtual memory page faults$/;"	m	class:Statistics
+opCode	mipssim.cc	/^    char opCode;     \/\/ Type of instruction.  This is NOT the same as the$/;"	m	class:Instruction	file:
+opCode	mipssim.h	/^    int opCode;		\/* Translated op code. *\/$/;"	m	struct:OpInfo
+opStrings	mipssim.h	/^static struct OpString opStrings[] = {$/;"	v	typeref:struct:OpString
+opTable	mipssim.h	/^static OpInfo opTable[] = {$/;"	v
+packetAvail	network.h	/^    bool packetAvail;		\/\/ Packet has arrived, can be pulled off of$/;"	m	class:NetworkInput
+pageTable	machine.h	/^    TranslationEntry *pageTable;$/;"	m	class:Machine
+pageTableSize	machine.h	/^    unsigned int pageTableSize;$/;"	m	class:Machine
+pending	interrupt.h	/^    SortedList<PendingInterrupt *> *pending;		$/;"	m	class:Interrupt
+physicalPage	translate.h	/^    unsigned int physicalPage;  \/\/ The page number in real memory (relative to the$/;"	m	class:TranslationEntry
+putBusy	console.h	/^    bool putBusy;    			\/\/ Is a PutChar operation in progress?$/;"	m	class:ConsoleOutput
+randomize	timer.h	/^    bool randomize;		\/\/ set if we need to use a random timeout delay$/;"	m	class:Timer
+rd	mipssim.cc	/^    char rs, rt, rd; \/\/ Three registers from instruction.$/;"	m	class:Instruction	file:
+readFileNo	console.h	/^    int readFileNo;			\/\/ UNIX file emulating the keyboard $/;"	m	class:ConsoleInput
+readOnly	translate.h	/^    bool readOnly;	\/\/ If this bit is set, the user program is not allowed$/;"	m	class:TranslationEntry
+registers	machine.h	/^    int registers[NumTotalRegs]; \/\/ CPU registers, for executing user programs$/;"	m	class:Machine
+riderEvents	elevator.h	/^    ListOfEvents *riderEvents;	\/\/ pending events relevant to riders$/;"	m	class:ElevatorBank
+riderWakeup	elevatortest.cc	/^    Semaphore *riderWakeup;	\/\/ to synchronize rider with callbacks$/;"	m	class:ElevatorInspector	file:
+riders	elevator.cc	/^    List<Thread *> *riders;	\/\/ who is on board?$/;"	m	class:ElevatorInfo	file:
+rs	mipssim.cc	/^    char rs, rt, rd; \/\/ Three registers from instruction.$/;"	m	class:Instruction	file:
+rt	mipssim.cc	/^    char rs, rt, rd; \/\/ Three registers from instruction.$/;"	m	class:Instruction	file:
+runUntilTime	machine.h	/^    int runUntilTime;		\/\/ drop back into the debugger when simulated$/;"	m	class:Machine
+sendBusy	network.h	/^    bool sendBusy;		\/\/ Packet is being sent.$/;"	m	class:NetworkOutput
+setStatus	interrupt.h	/^    void setStatus(MachineStatus st) { status = st; }$/;"	f	class:Interrupt
+singleStep	machine.h	/^    bool singleStep;		\/\/ drop back into the debugger after each$/;"	m	class:Machine
+sock	network.h	/^    int sock;                   \/\/ UNIX socket number for incoming packets$/;"	m	class:NetworkInput
+sock	network.h	/^    int sock;                   \/\/ UNIX socket number for outgoing packets$/;"	m	class:NetworkOutput
+sockName	network.h	/^    char sockName[32];          \/\/ File name corresponding to UNIX socket$/;"	m	class:NetworkInput
+specialTable	mipssim.h	/^static int specialTable[] = {$/;"	v
+status	interrupt.h	/^    MachineStatus status;	\/\/ idle, kernel mode, user mode$/;"	m	class:Interrupt
+systemTicks	stats.h	/^    int systemTicks;	 	\/\/ Time spent executing system code$/;"	m	class:Statistics
+tlb	machine.h	/^    TranslationEntry *tlb;		\/\/ this pointer should be considered $/;"	m	class:Machine
+to	network.h	/^    NetworkAddress to;		\/\/ Destination machine ID$/;"	m	class:PacketHeader
+totalTicks	stats.h	/^    int totalTicks;      	\/\/ Total time running Nachos$/;"	m	class:Statistics
+type	interrupt.h	/^    IntType type;		\/\/ for debugging$/;"	m	class:PendingInterrupt
+use	translate.h	/^    bool use;           \/\/ This bit is set by the hardware every time the$/;"	m	class:TranslationEntry
+userTicks	stats.h	/^    int userTicks;       	\/\/ Time spent executing user code$/;"	m	class:Statistics
+valid	translate.h	/^    bool valid;         \/\/ If this bit is set, the translation is ignored.$/;"	m	class:TranslationEntry
+value	mipssim.cc	/^    unsigned int value; \/\/ binary representation of the instruction$/;"	m	class:Instruction	file:
+virtualPage	translate.h	/^    unsigned int virtualPage;  	\/\/ The page number in virtual memory.$/;"	m	class:TranslationEntry
+when	interrupt.h	/^    int when;			\/\/ When the interrupt is supposed to fire$/;"	m	class:PendingInterrupt
+willArrive	elevator.cc	/^    int willArrive;		\/\/ when will it arrive at the next floor?$/;"	m	class:ElevatorInfo	file:
+writeFileNo	console.h	/^    int writeFileNo;			\/\/ UNIX file emulating the display$/;"	m	class:ConsoleOutput
+yieldOnReturn	interrupt.h	/^    bool yieldOnReturn; 	\/\/ TRUE if we are to context switch$/;"	m	class:Interrupt
+~CallBackObj	callback.h	/^     virtual ~CallBackObj() {};$/;"	f	class:CallBackObj
+~ConsoleInput	console.cc	/^ConsoleInput::~ConsoleInput()$/;"	f	class:ConsoleInput
+~ConsoleOutput	console.cc	/^ConsoleOutput::~ConsoleOutput()$/;"	f	class:ConsoleOutput
+~Disk	disk.cc	/^Disk::~Disk()$/;"	f	class:Disk
+~ElevatorBank	elevator.cc	/^ElevatorBank::~ElevatorBank() {$/;"	f	class:ElevatorBank
+~ElevatorInfo	elevator.cc	/^    ~ElevatorInfo() { delete riders; }$/;"	f	class:ElevatorInfo
+~ElevatorInspector	elevatortest.cc	/^ElevatorInspector::~ElevatorInspector()$/;"	f	class:ElevatorInspector
+~Interrupt	interrupt.cc	/^Interrupt::~Interrupt()$/;"	f	class:Interrupt
+~Machine	machine.cc	/^Machine::~Machine()$/;"	f	class:Machine
+~NetworkInput	network.cc	/^NetworkInput::~NetworkInput()$/;"	f	class:NetworkInput
+~NetworkOutput	network.cc	/^NetworkOutput::~NetworkOutput()$/;"	f	class:NetworkOutput
+~Timer	timer.h	/^    virtual ~Timer() {}$/;"	f	class:Timer

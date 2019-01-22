@@ -1,0 +1,370 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALARM_H	alarm.h	18;"	d
+Acquire	synch.cc	/^void Lock::Acquire()$/;"	f	class:Lock
+Alarm	alarm.cc	/^Alarm::Alarm(bool doRandom)$/;"	f	class:Alarm
+Alarm	alarm.h	/^class Alarm : public CallBackObj {$/;"	c
+Append	synchlist.cc	/^SynchList<T>::Append(T item)$/;"	f	class:SynchList
+Apply	synchlist.cc	/^SynchList<T>::Apply(void (*func)(T))$/;"	f	class:SynchList
+BLOCKED	thread.h	/^enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };$/;"	e	enum:ThreadStatus
+Bed	alarm.h	/^				Bed(Thread* t, int x):$/;"	f	class:Bedroom::Bed
+Bed	alarm.h	/^		class Bed {$/;"	c	class:Bedroom
+Bedroom	alarm.h	/^		Bedroom():_current_interrupt(0) {};$/;"	f	class:Bedroom
+Bedroom	alarm.h	/^class Bedroom {$/;"	c
+Begin	thread.cc	/^Thread::Begin ()$/;"	f	class:Thread
+Broadcast	synch.cc	/^void Condition::Broadcast(Lock* conditionLock) $/;"	f	class:Condition
+CFILES	Makefile	/^CFILES = $(THREAD_C)$/;"	m
+CR	switch.h	203;"	d
+C_OFILES	Makefile	/^C_OFILES = $(THREAD_O)$/;"	m
+CallBack	alarm.cc	/^Alarm::CallBack() $/;"	f	class:Alarm
+CheckOverflow	thread.cc	/^Thread::CheckOverflow()$/;"	f	class:Thread
+CheckToBeDestroyed	scheduler.cc	/^Scheduler::CheckToBeDestroyed()$/;"	f	class:Scheduler
+Cleanup	main.cc	/^Cleanup(int x) $/;"	f	file:
+Condition	synch.cc	/^Condition::Condition(char* debugName)$/;"	f	class:Condition
+Condition	synch.h	/^class Condition {$/;"	c
+DEFINES	Makefile	/^DEFINES = -DTHREADS$/;"	m
+FIFO	scheduler.h	/^	FIFO$/;"	e	enum:SchedulerType
+FIFOCompare	scheduler.cc	/^int FIFOCompare(Thread *a, Thread *b) {$/;"	f
+FP	switch.h	38;"	d
+FP	switch.h	78;"	d
+FP13	switch.h	185;"	d
+FP15	switch.h	186;"	d
+FP16	switch.h	187;"	d
+FP17	switch.h	188;"	d
+FP18	switch.h	189;"	d
+FP19	switch.h	190;"	d
+FP20	switch.h	191;"	d
+FP21	switch.h	192;"	d
+FP22	switch.h	193;"	d
+FP23	switch.h	194;"	d
+FP24	switch.h	195;"	d
+FP25	switch.h	196;"	d
+FP26	switch.h	197;"	d
+FP27	switch.h	198;"	d
+FP28	switch.h	199;"	d
+FP29	switch.h	200;"	d
+FP30	switch.h	201;"	d
+FP31	switch.h	202;"	d
+FPState	switch.h	146;"	d
+FPState	switch.h	260;"	d
+FPState	switch.h	57;"	d
+FindNextToRun	scheduler.cc	/^Scheduler::FindNextToRun ()$/;"	f	class:Scheduler
+Finish	thread.cc	/^Thread::Finish ()$/;"	f	class:Thread
+Fork	thread.cc	/^Thread::Fork(VoidFunctionPtr func, void *arg)$/;"	f	class:Thread
+GP	switch.h	242;"	d
+GP13	switch.h	166;"	d
+GP14	switch.h	167;"	d
+GP15	switch.h	168;"	d
+GP16	switch.h	169;"	d
+GP17	switch.h	170;"	d
+GP18	switch.h	171;"	d
+GP19	switch.h	172;"	d
+GP20	switch.h	173;"	d
+GP21	switch.h	174;"	d
+GP22	switch.h	175;"	d
+GP23	switch.h	176;"	d
+GP24	switch.h	177;"	d
+GP25	switch.h	178;"	d
+GP26	switch.h	179;"	d
+GP27	switch.h	180;"	d
+GP28	switch.h	181;"	d
+GP29	switch.h	182;"	d
+GP30	switch.h	183;"	d
+GP31	switch.h	184;"	d
+HFILES	Makefile	/^HFILES = $(THREAD_H)$/;"	m
+I0	switch.h	68;"	d
+I1	switch.h	69;"	d
+I2	switch.h	70;"	d
+I3	switch.h	71;"	d
+I4	switch.h	72;"	d
+I5	switch.h	73;"	d
+I6	switch.h	74;"	d
+I7	switch.h	75;"	d
+INCPATH	Makefile	/^INCPATH = -I..\/lib -I..\/threads -I..\/machine$/;"	m
+InitialArg	switch.h	119;"	d
+InitialArg	switch.h	153;"	d
+InitialArg	switch.h	219;"	d
+InitialArg	switch.h	255;"	d
+InitialArg	switch.h	52;"	d
+InitialArg	switch.h	83;"	d
+InitialArgState	switch.h	125;"	d
+InitialArgState	switch.h	148;"	d
+InitialArgState	switch.h	211;"	d
+InitialArgState	switch.h	262;"	d
+InitialArgState	switch.h	59;"	d
+InitialArgState	switch.h	89;"	d
+InitialLR	switch.h	218;"	d
+InitialPC	switch.h	118;"	d
+InitialPC	switch.h	152;"	d
+InitialPC	switch.h	254;"	d
+InitialPC	switch.h	51;"	d
+InitialPC	switch.h	82;"	d
+InitialPCState	switch.h	124;"	d
+InitialPCState	switch.h	147;"	d
+InitialPCState	switch.h	210;"	d
+InitialPCState	switch.h	261;"	d
+InitialPCState	switch.h	58;"	d
+InitialPCState	switch.h	88;"	d
+Initialize	kernel.cc	/^ThreadedKernel::Initialize()$/;"	f	class:ThreadedKernel
+IsEmpty	alarm.cc	/^bool Bedroom::IsEmpty() {$/;"	f	class:Bedroom
+IsHeldByCurrentThread	synch.cc	/^Lock::IsHeldByCurrentThread()$/;"	f	class:Lock
+JUST_CREATED	thread.h	/^enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };$/;"	e	enum:ThreadStatus
+KERNEL_H	kernel.h	9;"	d
+KernelType	main.h	17;"	d
+KernelType	main.h	22;"	d
+KernelType	main.h	26;"	d
+LR	switch.h	204;"	d
+Lock	synch.cc	/^Lock::Lock(char* debugName)$/;"	f	class:Lock
+Lock	synch.h	/^class Lock {$/;"	c
+MAIN	main.cc	17;"	d	file:
+MAIN	main.cc	19;"	d	file:
+MAIN_H	main.h	10;"	d
+MachineStateSize	thread.h	56;"	d
+MorningCall	alarm.cc	/^bool Bedroom::MorningCall() {$/;"	f	class:Bedroom
+P	synch.cc	/^Semaphore::P()$/;"	f	class:Semaphore
+P1	switch.h	162;"	d
+P2	switch.h	163;"	d
+P3	switch.h	164;"	d
+P4	switch.h	165;"	d
+PC	switch.h	115;"	d
+PC	switch.h	243;"	d
+PC	switch.h	39;"	d
+PC	switch.h	79;"	d
+PCState	switch.h	123;"	d
+PCState	switch.h	145;"	d
+PCState	switch.h	214;"	d
+PCState	switch.h	259;"	d
+PCState	switch.h	56;"	d
+PCState	switch.h	87;"	d
+PLabelToAddr	thread.cc	/^PLabelToAddr(void *plabel)$/;"	f	file:
+Print	scheduler.cc	/^Scheduler::Print()$/;"	f	class:Scheduler
+Print	thread.h	/^    void Print() { cout << name; }$/;"	f	class:Thread
+Priority	scheduler.h	/^        Priority,$/;"	e	enum:SchedulerType
+PriorityCompare	scheduler.cc	/^int PriorityCompare(Thread *a, Thread *b) {$/;"	f
+PutToBed	alarm.cc	/^void Bedroom::PutToBed(Thread*t, int x) {$/;"	f	class:Bedroom
+READY	thread.h	/^enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };$/;"	e	enum:ThreadStatus
+RR	scheduler.h	/^        RR,     \/\/ Round Robin$/;"	e	enum:SchedulerType
+RUNNING	thread.h	/^enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };$/;"	e	enum:ThreadStatus
+ReadyToRun	scheduler.cc	/^Scheduler::ReadyToRun (Thread *thread)$/;"	f	class:Scheduler
+Release	synch.cc	/^void Lock::Release()$/;"	f	class:Lock
+RemoveFront	synchlist.cc	/^SynchList<T>::RemoveFront()$/;"	f	class:SynchList
+RestoreUserState	thread.cc	/^Thread::RestoreUserState()$/;"	f	class:Thread
+Run	kernel.cc	/^ThreadedKernel::Run()$/;"	f	class:ThreadedKernel
+Run	scheduler.cc	/^Scheduler::Run (Thread *nextThread, bool finishing)$/;"	f	class:Scheduler
+S0	switch.h	235;"	d
+S0	switch.h	30;"	d
+S0	switch.h	99;"	d
+S1	switch.h	100;"	d
+S1	switch.h	236;"	d
+S1	switch.h	31;"	d
+S10	switch.h	109;"	d
+S11	switch.h	110;"	d
+S12	switch.h	111;"	d
+S13	switch.h	112;"	d
+S14	switch.h	113;"	d
+S15	switch.h	114;"	d
+S2	switch.h	101;"	d
+S2	switch.h	237;"	d
+S2	switch.h	32;"	d
+S3	switch.h	102;"	d
+S3	switch.h	238;"	d
+S3	switch.h	33;"	d
+S4	switch.h	103;"	d
+S4	switch.h	239;"	d
+S4	switch.h	34;"	d
+S5	switch.h	104;"	d
+S5	switch.h	240;"	d
+S5	switch.h	35;"	d
+S6	switch.h	105;"	d
+S6	switch.h	241;"	d
+S6	switch.h	36;"	d
+S7	switch.h	106;"	d
+S7	switch.h	37;"	d
+S8	switch.h	107;"	d
+S9	switch.h	108;"	d
+SCHEDULER_H	scheduler.h	10;"	d
+SJF	scheduler.h	/^        SJF,$/;"	e	enum:SchedulerType
+SJFCompare	scheduler.cc	/^int SJFCompare(Thread *a, Thread *b) {$/;"	f
+SP	switch.h	161;"	d
+SP	switch.h	234;"	d
+SP	switch.h	29;"	d
+SP	switch.h	98;"	d
+STACK_FENCEPOST	thread.cc	/^const int STACK_FENCEPOST = 0xdedbeef;$/;"	v
+SWITCH	switch.s	/^SWITCH$/;"	l
+SWITCH	switch.s	/^SWITCH:$/;"	l
+SWITCH	swtch.s	/^SWITCH:$/;"	l
+SWITCH_H	switch.h	19;"	d
+SYNCHLIST_H	synchlist.h	11;"	d
+SYNCH_H	synch.h	18;"	d
+SaveUserState	thread.cc	/^Thread::SaveUserState()$/;"	f	class:Thread
+Scheduler	scheduler.cc	/^Scheduler::Scheduler()$/;"	f	class:Scheduler
+Scheduler	scheduler.cc	/^Scheduler::Scheduler(SchedulerType type)$/;"	f	class:Scheduler
+Scheduler	scheduler.h	/^class Scheduler {$/;"	c
+SchedulerType	scheduler.h	/^enum SchedulerType {$/;"	g
+SchedulingTest	thread.cc	/^Thread::SchedulingTest()$/;"	f	class:Thread
+SelfTest	kernel.cc	/^ThreadedKernel::SelfTest() {$/;"	f	class:ThreadedKernel
+SelfTest	synch.cc	/^Semaphore::SelfTest()$/;"	f	class:Semaphore
+SelfTest	synchlist.cc	/^SynchList<T>::SelfTest(T val)$/;"	f	class:SynchList
+SelfTest	thread.cc	/^Thread::SelfTest()$/;"	f	class:Thread
+SelfTestHelper	synch.cc	/^SelfTestHelper (Semaphore *pong) $/;"	f	file:
+SelfTestHelper	synchlist.cc	/^SynchList<T>::SelfTestHelper() $/;"	f	class:SynchList
+SelfTestHelper_st	synchlist.cc	/^SynchList<T>::SelfTestHelper_st(SynchList<T> *slist)$/;"	f	class:SynchList
+Semaphore	synch.cc	/^Semaphore::Semaphore(char* debugName, int initialValue)$/;"	f	class:Semaphore
+Semaphore	synch.h	/^class Semaphore {$/;"	c
+Signal	synch.cc	/^void Condition::Signal(Lock* conditionLock)$/;"	f	class:Condition
+SimpleThread	thread.cc	/^SimpleThread(int which)$/;"	f	file:
+Sleep	thread.cc	/^Thread::Sleep (bool finishing)$/;"	f	class:Thread
+StackAllocate	thread.cc	/^Thread::StackAllocate (VoidFunctionPtr func, void *arg)$/;"	f	class:Thread
+StackSize	thread.h	/^const int StackSize = (4 * 1024);	\/\/ in words$/;"	v
+StartupLR	switch.h	221;"	d
+StartupPC	switch.h	121;"	d
+StartupPC	switch.h	155;"	d
+StartupPC	switch.h	257;"	d
+StartupPC	switch.h	54;"	d
+StartupPC	switch.h	85;"	d
+StartupPCState	switch.h	127;"	d
+StartupPCState	switch.h	150;"	d
+StartupPCState	switch.h	213;"	d
+StartupPCState	switch.h	264;"	d
+StartupPCState	switch.h	61;"	d
+StartupPCState	switch.h	91;"	d
+SynchList	synchlist.cc	/^SynchList<T>::SynchList()$/;"	f	class:SynchList
+SynchList	synchlist.h	/^class SynchList {$/;"	c
+THREAD_H	thread.h	38;"	d
+TOC	switch.h	205;"	d
+Thread	thread.cc	/^Thread::Thread(char* threadName)$/;"	f	class:Thread
+Thread	thread.h	/^class Thread {$/;"	c
+ThreadBegin	thread.cc	/^static void ThreadBegin() { kernel->currentThread->Begin(); }$/;"	f	file:
+ThreadFinish	thread.cc	/^static void ThreadFinish()    { kernel->currentThread->Finish(); }$/;"	f	file:
+ThreadPrint	thread.cc	/^void ThreadPrint(Thread *t) { t->Print(); }$/;"	f
+ThreadRoot	switch.s	/^ThreadRoot$/;"	l
+ThreadRoot	switch.s	/^ThreadRoot:$/;"	l
+ThreadRoot	swtch.s	/^ThreadRoot:$/;"	l
+ThreadStatus	thread.h	/^enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };$/;"	g
+ThreadedKernel	kernel.cc	/^ThreadedKernel::ThreadedKernel(int argc, char **argv)$/;"	f	class:ThreadedKernel
+ThreadedKernel	kernel.h	/^class ThreadedKernel {$/;"	c
+V	synch.cc	/^Semaphore::V()$/;"	f	class:Semaphore
+Wait	synch.cc	/^void Condition::Wait(Lock* conditionLock) $/;"	f	class:Condition
+WaitUntil	alarm.cc	/^void Alarm::WaitUntil(int x) {$/;"	f	class:Alarm
+WhenDoneLR	switch.h	220;"	d
+WhenDonePC	switch.h	120;"	d
+WhenDonePC	switch.h	154;"	d
+WhenDonePC	switch.h	256;"	d
+WhenDonePC	switch.h	53;"	d
+WhenDonePC	switch.h	84;"	d
+WhenDonePCState	switch.h	126;"	d
+WhenDonePCState	switch.h	149;"	d
+WhenDonePCState	switch.h	212;"	d
+WhenDonePCState	switch.h	263;"	d
+WhenDonePCState	switch.h	60;"	d
+WhenDonePCState	switch.h	90;"	d
+Yield	thread.cc	/^Thread::Yield ()$/;"	f	class:Thread
+_EAX	switch.h	135;"	d
+_EBP	switch.h	139;"	d
+_EBX	switch.h	136;"	d
+_ECX	switch.h	137;"	d
+_EDI	switch.h	141;"	d
+_EDX	switch.h	138;"	d
+_ESI	switch.h	140;"	d
+_ESP	switch.h	134;"	d
+_PC	switch.h	142;"	d
+_SWITCH	switch.s	/^_SWITCH:$/;"	l
+_ThreadRoot	switch.s	/^_ThreadRoot:$/;"	l
+_bedroom	alarm.h	/^	Bedroom _bedroom;$/;"	m	class:Alarm
+_beds	alarm.h	/^	std::list<Bed> _beds;$/;"	m	class:Bedroom
+_current_interrupt	alarm.h	/^	int _current_interrupt;$/;"	m	class:Bedroom
+a0	switch.s	/^#define a0	$16	\/* (T)		argument registers	*\/$/;"	d
+a0	switch.s	/^#define a0      $4      \/* argument registers *\/$/;"	d
+a1	switch.s	/^#define a1	$17$/;"	d
+a1	switch.s	/^#define a1      $5$/;"	d
+ai	switch.s	/^#define ai	$25	\/* (T)		argument information	*\/$/;"	d
+alarm	kernel.h	/^    Alarm *alarm;		\/\/ the software alarm clock    $/;"	m	class:ThreadedKernel
+burstTime	thread.h	/^    int burstTime;	\/\/ predicted burst time$/;"	m	class:Thread
+currentThread	kernel.h	/^    Thread *currentThread;	\/\/ the thread holding the CPU$/;"	m	class:ThreadedKernel
+debug	main.cc	/^Debug *debug;$/;"	v
+execPriority	thread.h	/^    int execPriority;	\/\/ the execute priority of the thread$/;"	m	class:Thread
+fp	switch.s	/^#define fp      $30     \/* frame pointer *\/$/;"	d
+getBurstTime	thread.h	/^    int getBurstTime()		{return burstTime;}$/;"	f	class:Thread
+getName	synch.cc	/^Condition::getName()$/;"	f	class:Condition
+getName	synch.cc	/^Lock::getName()$/;"	f	class:Lock
+getName	synch.cc	/^Semaphore::getName()$/;"	f	class:Semaphore
+getName	thread.h	/^    char* getName() { return (name); }$/;"	f	class:Thread
+getPriority	thread.h	/^    int getPriority()		{return execPriority;}$/;"	f	class:Thread
+getSchedulerType	scheduler.h	/^    	SchedulerType getSchedulerType() {return schedulerType;}$/;"	f	class:Scheduler
+getStartTime	thread.h	/^    int getStartTime()		{return startTime;}$/;"	f	class:Thread
+gp	switch.s	/^#define	gp	$29	\/* (T)		(local) data pointer	*\/$/;"	d
+interrupt	kernel.h	/^    Interrupt *interrupt;	\/\/ interrupt status$/;"	m	class:ThreadedKernel
+kernel	main.cc	/^KernelType *kernel;$/;"	v
+list	synchlist.h	/^    List<T> *list;		\/\/ the list of things$/;"	m	class:SynchList
+listEmpty	synchlist.h	/^    Condition *listEmpty;	\/\/ wait in Remove if the list is empty$/;"	m	class:SynchList
+lock	synchlist.h	/^    Lock *lock;			\/\/ enforce mutual exclusive access to the list$/;"	m	class:SynchList
+lockHolder	synch.h	/^    Thread *lockHolder;		\/\/ thread currently holding lock$/;"	m	class:Lock
+machineState	thread.h	/^    void *machineState[MachineStateSize];  \/\/ all registers except for stackTop$/;"	m	class:Thread
+main	main.cc	/^main(int argc, char **argv)$/;"	f
+name	synch.h	/^    char *name;			\/\/ debugging assist$/;"	m	class:Lock
+name	synch.h	/^    char* name;        \/\/ useful for debugging$/;"	m	class:Semaphore
+name	synch.h	/^    char* name;$/;"	m	class:Condition
+name	thread.h	/^    char* name;$/;"	m	class:Thread
+ping	synch.cc	/^static Semaphore *ping;$/;"	v	file:
+pv	switch.s	/^#define pv	$27	\/* (T)		procedure value		*\/$/;"	d
+queue	synch.h	/^    List<Thread *> *queue;     $/;"	m	class:Semaphore
+ra	switch.s	/^#define ra	$26	\/* (T)		return address		*\/$/;"	d
+ra	switch.s	/^#define ra      $31     \/* return address *\/$/;"	d
+randomSlice	kernel.h	/^    bool randomSlice;		\/\/ enable pseudo-random time slicing$/;"	m	class:ThreadedKernel
+readyList	scheduler.h	/^	List<Thread *> *readyList;	\/\/ queue of threads that are ready to run,$/;"	m	class:Scheduler
+s0	switch.s	/^#define s0	$9	\/* (S)		call-safe registers	*\/$/;"	d
+s0	switch.s	/^#define s0      $16     \/* callee saved *\/$/;"	d
+s1	switch.s	/^#define s1	$10$/;"	d
+s1	switch.s	/^#define s1      $17$/;"	d
+s2	switch.s	/^#define s2	$11$/;"	d
+s2	switch.s	/^#define s2      $18$/;"	d
+s3	switch.s	/^#define s3	$12$/;"	d
+s3	switch.s	/^#define s3      $19$/;"	d
+s4	switch.s	/^#define s4	$13$/;"	d
+s4	switch.s	/^#define s4      $20$/;"	d
+s5	switch.s	/^#define s5	$14$/;"	d
+s5	switch.s	/^#define s5      $21$/;"	d
+s6	switch.s	/^#define s6	$15$/;"	d
+s6	switch.s	/^#define s6      $22$/;"	d
+s7	switch.s	/^#define s7      $23$/;"	d
+scheduler	kernel.h	/^    Scheduler *scheduler;	\/\/ the ready list$/;"	m	class:ThreadedKernel
+schedulerType	scheduler.h	/^	SchedulerType schedulerType;$/;"	m	class:Scheduler
+selfTestPing	synchlist.h	/^    SynchList<T> *selfTestPing;$/;"	m	class:SynchList
+semaphore	synch.h	/^    Semaphore *semaphore;	\/\/ we use a semaphore to implement lock$/;"	m	class:Lock
+setBurstTime	thread.h	/^    void setBurstTime(int t)	{burstTime = t;}$/;"	f	class:Thread
+setPriority	thread.h	/^    void setPriority(int t)	{execPriority = t;}$/;"	f	class:Thread
+setSchedulerType	scheduler.h	/^    	void setSchedulerType(SchedulerType t) {schedulerType = t;}$/;"	f	class:Scheduler
+setStartTime	thread.h	/^    void setStartTime(int t)	{startTime = t;}$/;"	f	class:Thread
+setStatus	thread.h	/^    void setStatus(ThreadStatus st) { status = st; }$/;"	f	class:Thread
+sleeper	alarm.h	/^				Thread* sleeper;$/;"	m	class:Bedroom::Bed
+sp	switch.s	/^#define sp	$30	\/* (S)		stack pointer		*\/$/;"	d
+sp	switch.s	/^#define sp      $29     \/* stack pointer *\/$/;"	d
+space	thread.h	/^    AddrSpace *space;			\/\/ User code this thread is running.$/;"	m	class:Thread
+stack	thread.h	/^    int *stack; 	 	\/\/ Bottom of the stack $/;"	m	class:Thread
+stackTop	thread.h	/^    int *stackTop;			 \/\/ the current stack pointer$/;"	m	class:Thread
+startTime	thread.h	/^    int startTime;	\/\/ the start time of the thread$/;"	m	class:Thread
+stats	kernel.h	/^    Statistics *stats;		\/\/ performance metrics$/;"	m	class:ThreadedKernel
+status	thread.h	/^    ThreadStatus status;	\/\/ ready, running or blocked$/;"	m	class:Thread
+t0	switch.s	/^#define t0	$1	\/* (T)		temporary registers	*\/$/;"	d
+threadBody	thread.cc	/^threadBody() {$/;"	f
+timer	alarm.h	/^    Timer *timer;		\/\/ the hardware timer device$/;"	m	class:Alarm
+toBeDestroyed	scheduler.h	/^	Thread *toBeDestroyed;		\/\/ finishing thread to be destroyed$/;"	m	class:Scheduler
+userRegisters	thread.h	/^    int userRegisters[NumTotalRegs];	\/\/ user-level CPU register state$/;"	m	class:Thread
+v0	switch.s	/^#define	v0	$0	\/* (T)		return value		*\/$/;"	d
+value	synch.h	/^    int value;         \/\/ semaphore value, always >= 0$/;"	m	class:Semaphore
+waitQueue	synch.h	/^    List<Semaphore *> *waitQueue;	\/\/ list of waiting threads$/;"	m	class:Condition
+when	alarm.h	/^				int when;$/;"	m	class:Bedroom::Bed
+z	switch.s	/^#define z       $0      \/* zero register *\/$/;"	d
+zero	switch.s	/^#define zero	$31	\/* 		wired zero		*\/$/;"	d
+~Alarm	alarm.h	/^    ~Alarm() { delete timer; }$/;"	f	class:Alarm
+~Condition	synch.cc	/^Condition::~Condition()$/;"	f	class:Condition
+~Lock	synch.cc	/^Lock::~Lock()$/;"	f	class:Lock
+~Scheduler	scheduler.cc	/^Scheduler::~Scheduler()$/;"	f	class:Scheduler
+~Semaphore	synch.cc	/^Semaphore::~Semaphore()$/;"	f	class:Semaphore
+~SynchList	synchlist.cc	/^SynchList<T>::~SynchList()$/;"	f	class:SynchList
+~Thread	thread.cc	/^Thread::~Thread()$/;"	f	class:Thread
+~ThreadedKernel	kernel.cc	/^ThreadedKernel::~ThreadedKernel()$/;"	f	class:ThreadedKernel

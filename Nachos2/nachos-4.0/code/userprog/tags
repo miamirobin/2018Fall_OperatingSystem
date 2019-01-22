@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRSPACE_H	addrspace.h	14;"	d
+AddrSpace	addrspace.cc	/^AddrSpace::AddrSpace()$/;"	f	class:AddrSpace
+AddrSpace	addrspace.h	/^class AddrSpace {$/;"	c
+CFILES	Makefile	/^CFILES = $(THREAD_C) $(USERPROG_C)$/;"	m
+C_OFILES	Makefile	/^C_OFILES = $(THREAD_O) $(USERPROG_O)$/;"	m
+CallBack	synchconsole.cc	/^SynchConsoleInput::CallBack()$/;"	f	class:SynchConsoleInput
+CallBack	synchconsole.cc	/^SynchConsoleOutput::CallBack()$/;"	f	class:SynchConsoleOutput
+ConsoleInput	syscall.h	87;"	d
+ConsoleOutput	syscall.h	88;"	d
+DEFINES	Makefile	/^DEFINES = -DTHREADS -DUSER_PROGRAM -DFILESYS_NEEDED -DFILESYS_STUB$/;"	m
+ExceptionHandler	exception.cc	/^ExceptionHandler(ExceptionType which)$/;"	f
+Execute	addrspace.cc	/^AddrSpace::Execute(char *fileName) $/;"	f	class:AddrSpace
+ForkExecute	userkernel.cc	/^ForkExecute(Thread *t)$/;"	f
+GetChar	synchconsole.cc	/^SynchConsoleInput::GetChar()$/;"	f	class:SynchConsoleInput
+HFILES	Makefile	/^HFILES = $(THREAD_H) $(USERPROG_H)$/;"	m
+INCPATH	Makefile	/^INCPATH = -I..\/bin -I..\/filesys -I..\/userprog -I..\/threads -I..\/machine -I..\/lib$/;"	m
+InitRegisters	addrspace.cc	/^AddrSpace::InitRegisters()$/;"	f	class:AddrSpace
+Initialize	userkernel.cc	/^UserProgKernel::Initialize()$/;"	f	class:UserProgKernel
+Load	addrspace.cc	/^AddrSpace::Load(char *fileName) $/;"	f	class:AddrSpace
+OpenFileId	syscall.h	/^typedef int OpenFileId;	$/;"	t
+PutChar	synchconsole.cc	/^SynchConsoleOutput::PutChar(char ch)$/;"	f	class:SynchConsoleOutput
+RestoreState	addrspace.cc	/^void AddrSpace::RestoreState() $/;"	f	class:AddrSpace
+Run	userkernel.cc	/^UserProgKernel::Run()$/;"	f	class:UserProgKernel
+SC_Close	syscall.h	29;"	d
+SC_Create	syscall.h	25;"	d
+SC_Exec	syscall.h	23;"	d
+SC_Exit	syscall.h	22;"	d
+SC_Halt	syscall.h	21;"	d
+SC_Join	syscall.h	24;"	d
+SC_Open	syscall.h	26;"	d
+SC_PrintInt	syscall.h	32;"	d
+SC_Read	syscall.h	27;"	d
+SC_ThreadFork	syscall.h	30;"	d
+SC_ThreadYield	syscall.h	31;"	d
+SC_Write	syscall.h	28;"	d
+SWITCH	swtch.s	/^SWITCH:$/;"	l
+SYNCHCONSOLE_H	synchconsole.h	12;"	d
+SYSCALLS_H	syscall.h	14;"	d
+SaveState	addrspace.cc	/^void AddrSpace::SaveState() $/;"	f	class:AddrSpace
+SelfTest	userkernel.cc	/^UserProgKernel::SelfTest() {$/;"	f	class:UserProgKernel
+SpaceId	syscall.h	/^typedef int SpaceId;	$/;"	t
+SwapHeader	addrspace.cc	/^SwapHeader (NoffHeader *noffH)$/;"	f	file:
+SynchConsoleInput	synchconsole.cc	/^SynchConsoleInput::SynchConsoleInput(char *inputFile)$/;"	f	class:SynchConsoleInput
+SynchConsoleInput	synchconsole.h	/^class SynchConsoleInput : public CallBackObj {$/;"	c
+SynchConsoleOutput	synchconsole.cc	/^SynchConsoleOutput::SynchConsoleOutput(char *outputFile)$/;"	f	class:SynchConsoleOutput
+SynchConsoleOutput	synchconsole.h	/^class SynchConsoleOutput : public CallBackObj {$/;"	c
+ThreadRoot	swtch.s	/^ThreadRoot:$/;"	l
+USERKERNEL_H	userkernel.h	13;"	d
+UserProgKernel	userkernel.cc	/^UserProgKernel::UserProgKernel(int argc, char **argv) $/;"	f	class:UserProgKernel
+UserProgKernel	userkernel.h	/^class UserProgKernel : public ThreadedKernel {$/;"	c
+UserStackSize	addrspace.h	20;"	d
+consoleInput	synchconsole.h	/^    ConsoleInput *consoleInput;	\/\/ the hardware keyboard$/;"	m	class:SynchConsoleInput
+consoleOutput	synchconsole.h	/^    ConsoleOutput *consoleOutput;\/\/ the hardware display$/;"	m	class:SynchConsoleOutput
+debugUserProg	userkernel.h	/^    bool debugUserProg;		\/\/ single step user program$/;"	m	class:UserProgKernel
+execfile	userkernel.h	/^	char*	execfile[10];$/;"	m	class:UserProgKernel
+execfileNum	userkernel.h	/^	int	execfileNum;$/;"	m	class:UserProgKernel
+fileSystem	userkernel.h	/^    FileSystem *fileSystem;$/;"	m	class:UserProgKernel
+lock	synchconsole.h	/^    Lock *lock;			\/\/ only one reader at a time$/;"	m	class:SynchConsoleInput
+lock	synchconsole.h	/^    Lock *lock;			\/\/ only one writer at a time$/;"	m	class:SynchConsoleOutput
+machine	userkernel.h	/^    Machine *machine;$/;"	m	class:UserProgKernel
+numPages	addrspace.h	/^    unsigned int numPages;		\/\/ Number of pages in the virtual $/;"	m	class:AddrSpace
+pageTable	addrspace.h	/^    TranslationEntry *pageTable;	\/\/ Assume linear page table translation$/;"	m	class:AddrSpace
+synchDisk	userkernel.h	/^    SynchDisk *synchDisk;$/;"	m	class:UserProgKernel
+t	userkernel.h	/^	Thread* t[10];$/;"	m	class:UserProgKernel
+usedPhysPage	addrspace.cc	/^bool AddrSpace::usedPhysPage[NumPhysPages]={0};$/;"	m	class:AddrSpace	file:
+usedPhysPage	addrspace.h	/^    static bool usedPhysPage[NumPhysPages];$/;"	m	class:AddrSpace
+waitFor	synchconsole.h	/^    Semaphore *waitFor;		\/\/ wait for callBack$/;"	m	class:SynchConsoleInput
+waitFor	synchconsole.h	/^    Semaphore *waitFor;		\/\/ wait for callBack$/;"	m	class:SynchConsoleOutput
+~AddrSpace	addrspace.cc	/^AddrSpace::~AddrSpace()$/;"	f	class:AddrSpace
+~SynchConsoleInput	synchconsole.cc	/^SynchConsoleInput::~SynchConsoleInput()$/;"	f	class:SynchConsoleInput
+~SynchConsoleOutput	synchconsole.cc	/^SynchConsoleOutput::~SynchConsoleOutput()$/;"	f	class:SynchConsoleOutput
+~UserProgKernel	userkernel.cc	/^UserProgKernel::~UserProgKernel()$/;"	f	class:UserProgKernel

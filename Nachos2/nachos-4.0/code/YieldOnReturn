@@ -1,0 +1,55 @@
+Binary file filesys/alarm.o matches
+Binary file filesys/nachos matches
+Binary file network/alarm.o matches
+Binary file network/nachos matches
+network/netkernel.cc:    kernel->interrupt->Halt();
+Binary file threads/alarm.o matches
+threads/kernel.cc:    interrupt->Enable();
+threads/synch.cc:    IntStatus oldLevel = interrupt->SetLevel(IntOff);	
+threads/synch.cc:    (void) interrupt->SetLevel(oldLevel);	
+threads/synch.cc:    IntStatus oldLevel = interrupt->SetLevel(IntOff);	
+threads/synch.cc:    (void) interrupt->SetLevel(oldLevel);
+threads/alarm.cc:    MachineStatus status = interrupt->getStatus();
+threads/alarm.cc:        if (!interrupt->AnyFutureInterrupts()) {
+threads/alarm.cc://		interrupt->YieldOnReturn();
+threads/alarm.cc:        	cout << "=== interrupt->YieldOnReturn ===" << endl;
+threads/alarm.cc:        	interrupt->YieldOnReturn();
+threads/alarm.cc:    IntStatus oldLevel = kernel->interrupt->SetLevel(IntOff);
+threads/alarm.cc:    kernel->interrupt->SetLevel(oldLevel);
+threads/alarm.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/scheduler.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/scheduler.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/scheduler.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/scheduler.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/thread.cc:    oldLevel = interrupt->SetLevel(IntOff);
+threads/thread.cc:    (void) interrupt->SetLevel(oldLevel);
+threads/thread.cc:    kernel->interrupt->Enable();
+threads/thread.cc:    (void) kernel->interrupt->SetLevel(IntOff);		
+threads/thread.cc:    IntStatus oldLevel = kernel->interrupt->SetLevel(IntOff);
+threads/thread.cc:    (void) kernel->interrupt->SetLevel(oldLevel);
+threads/thread.cc:    ASSERT(kernel->interrupt->getLevel() == IntOff);
+threads/thread.cc:	kernel->interrupt->Idle();	// no one to run, wait for an interrupt
+threads/thread.cc:        kernel->interrupt->OneTick();
+Binary file threads/nachos matches
+machine/timer.cc:       kernel->interrupt->Schedule(this, delay, TimerInt);
+machine/network.cc:    kernel->interrupt->Schedule(this, NetworkTime, NetworkRecvInt);
+machine/network.cc:    kernel->interrupt->Schedule(this, NetworkTime, NetworkRecvInt);
+machine/network.cc:    kernel->interrupt->Schedule(this, NetworkTime, NetworkSendInt);
+machine/mipssim.cc:    kernel->interrupt->setStatus(UserMode);
+machine/mipssim.cc:	kernel->interrupt->OneTick();
+machine/disk.cc:    kernel->interrupt->Schedule(this, ticks, DiskInt);
+machine/disk.cc:    kernel->interrupt->Schedule(this, ticks, DiskInt);
+machine/machine.cc:    kernel->interrupt->setStatus(SystemMode);
+machine/machine.cc:    kernel->interrupt->setStatus(UserMode);
+machine/machine.cc:    kernel->interrupt->DumpState();
+machine/console.cc:    kernel->interrupt->Schedule(this, ConsoleTime, ConsoleReadInt);
+machine/console.cc:        kernel->interrupt->Schedule(this, ConsoleTime, ConsoleReadInt);
+machine/console.cc:       kernel->interrupt->Schedule(this, ConsoleTime, ConsoleReadInt);
+machine/console.cc:    kernel->interrupt->Schedule(this, ConsoleTime, ConsoleWriteInt);
+machine/elevator.cc:    	kernel->interrupt->Schedule(this, DelayPerFloor, ElevatorInt);
+machine/elevator.cc:	    	kernel->interrupt->Schedule(this, DelayPerFloor, ElevatorInt);
+machine/elevator.cc:        kernel->interrupt->Schedule(this, 1, ElevatorInt);
+Binary file userprog/alarm.o matches
+userprog/exception.cc:   		    kernel->interrupt->Halt();
+Binary file userprog/nachos matches
+userprog/YieldOnReturn:exception.cc:   		    kernel->interrupt->Halt();
